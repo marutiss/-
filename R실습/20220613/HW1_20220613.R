@@ -54,3 +54,18 @@ jang <- function() {
   plot(1-spec,sens,type='b')
 }
 jang()
+
+# 2013_baseball.csv에 있는 각 타자에 대한 변수를 사용하여 주성분 분석을 시행하라. 적당한 주성분의 개수를 파악하고 해당 주성분들로 설명되는 분산의 비율을 구하라. 행렬도를 통해 선수들의 특징이 어떻게 파악되는지 살펴보시오.
+# 스크린 플랏 또는 분산의 비율을 사용
+# PC1과 PC2의 행렬도를 통해 파악?
+#   
+# stat = read.csv("2013_baseball.csv")
+# head(stat)
+# rownames(stat)=stat[,1]
+# rownames(stat)
+# 
+# model=prcomp(stat[,4:11],scale=TRUE)
+# 
+# model
+# biplot(model)
+
